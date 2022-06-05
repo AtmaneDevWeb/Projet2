@@ -1,0 +1,250 @@
+/* Media Queries Mobile  */
+@media (max-width: 767px) {
+
+  body * {
+   box-sizing: border-box;
+  }
+  /*------- Header page ------------*/
+  header {
+    padding: 0px;
+  }
+  .logo-nav {
+    display: block;
+    text-align: center;
+  }
+  #logo {
+    width: 100px;
+  }
+  nav a {
+    border-bottom: 4px solid #f2f2f2;
+  }
+  .sub_nav {
+    width: 100%;
+  }
+  .sub_nav a {
+    width: 50%;
+    text-align: center;
+    padding-bottom: 13px;
+    padding-left: 40px;
+    padding-right: 76px;
+  }
+  .sub_nav a:hover {
+    border-bottom: 4px solid #0065fc;
+    border-top: 3px solid transparent;
+  }
+
+/*------- Main part ------------*/
+   main {
+    padding: 0px;
+  }
+
+/* Search section */
+   main .search {
+    padding-top: 35px;
+    padding-left: 25px
+  }
+   main .search h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+   h1 {
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .search form {
+    padding-top: 22px;
+    padding-bottom: 20px;
+  }
+  .search .map-color {
+    height: 55px;
+  }
+  form>span .search-icon {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-left: -15px;
+    font-size: 18px;
+    background-color: #0065fc;
+    height: 55px;
+    width: 55px;
+  }
+  form .btn-search {
+    display: none;
+  }
+  form .fa-search {
+    display: block;
+  }
+  #icon {
+    padding-right: 0%;
+    padding-top: 15px;
+  }
+  #typing-search  {
+    font-size: 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 245px;
+  }
+  .filter-list {
+    flex-direction: row;
+    align-items:flex-start;
+    padding-bottom: 20px;
+  }
+  .filter-list span {
+    padding-left: 9px;
+    width: 100%;
+  }
+  .filter-list .filter {
+    height: 50px;
+    border-radius: 50px;
+    padding-right: 17px;
+  }
+  .filter-list .filter i {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+  }
+  .search i {
+    border-radius: 50px;
+    height: 51px;
+    width: 51px;
+  }
+  #icone-info {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+  }
+  .result-info p {
+    font-size: 17px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+  }
+  #apartment-info {
+  flex-direction: column;
+  }
+  .marseille-apartment-list {
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.most-p .card {
+  height: 70%;
+  max-width: 100%;
+  min-width: 300px;
+  margin-bottom: 20px;
+}
+.most-popular  img {
+  width: 100%;
+}
+.most-popular {
+  order: -1;
+  width: 100%;
+  border-radius: 0px;
+  padding-right: 15px;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  padding-left: 11px;
+}
+.most-popular h2 {
+  font-size: 23px;
+}
+.most-popular .card img{
+  width: 50%;
+}
+#apartment-info .marseille-hebergement {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  padding-left: 11px;
+  padding-right: 15px;
+}
+.marseille-hebergement h2 {
+  font-size: 23px;
+  padding-top: 5px;
+}
+.marseille-hebergement .card {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.marseille-apartment-list .card img{
+  height: 111px;
+}
+#activities-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-right: 17px;
+  padding-left: 0;
+}
+#activities-section h2 {
+  padding-left: 27px;
+}
+.activitie-cards {
+  flex-direction: column;
+  margin-left: 20px;
+}
+.activitie-cards .card {
+  width: 100%;
+  height: 165px;
+  margin-bottom: 25px;
+}
+.activitie-cards > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+div .activites2 {
+  display: flex;
+  flex-direction: column;
+}
+.activites .img1 img, .img2 img, .img3 img, .img5 img, .img6 img {
+  max-width: 100%;
+  height: 111px;
+}
+.activites .img4 img {
+  max-width: 100%;
+  height: 111px;
+}
+.activites2 .img2 img {
+  height: 111px;
+}
+.activites2 .img3 img{
+  height: 111px;
+}
+.activites2 .img5 img {
+  height: 111px;
+}
+.activites2 .img6 img {
+  height: 111px;
+}
+footer {
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+}
+footer h4 {
+  margin-bottom: 0px;
+  font-weight:900;
+  font-size: 17px;
+}
+footer a {
+  font-size: 15px;
+  font-weight:500;
+}
+footer #about{
+  width: 300px;
+  line-height: 21px;
+} 
+footer .hebergements-footer{
+  width: 300px;
+  line-height: 21px;
+}
+#assistance ul {
+  width: 300px;
+  min-width: 260px;
+  line-height: 21px;
+}
+}
